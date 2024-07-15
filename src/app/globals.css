@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background: var(--palette-background-b2);
+  overflow-x: hidden;
+}
